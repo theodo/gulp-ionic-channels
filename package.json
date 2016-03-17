@@ -1,0 +1,34 @@
+{
+  "name": "gulp-ionic-channels",
+  "version": "0.0.1",
+  "description": "Gulp plugin for handling multiple ionic channels/environments for a single codebase",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wrousseau/gulp-ionic-channels.git"
+  },
+  "keywords": [
+    "gulp",
+    "ionic",
+    "cordova",
+    "ionic.io",
+    "environments"
+  ],
+  "author": "Woody Rousseau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrousseau/gulp-ionic-channels/issues"
+  },
+  "homepage": "https://github.com/wrousseau/gulp-ionic-channels",
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "js-yaml": "^3.2.7",
+    "lodash": "^3.9.3",
+    "swig": "^1.4.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.3.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
