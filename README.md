@@ -23,6 +23,7 @@ gulp.task('config', function() {
   .pipe(ionicChannels({
     channelTag: 'staging'
   }))
+  .pipe(ngConstant())
   .pipe(gulp.dest('.'));
 });
 ```
